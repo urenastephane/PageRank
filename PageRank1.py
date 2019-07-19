@@ -119,7 +119,7 @@ for k in range(0,2):
 				r=-1
 				for j in range(0,len(b)): #(2) on parcourt la liste des couples (url,pagerank) pointant vers la page
 					r=r+1
-					for l in liens_sortants:#on parcours la liste contenant les paires (sous forme de liste) les url et le nb de lien en sortant: ex ((A,1), (B,4), ...) ici l=(A,1) et l(0)=A	
+					for l in liens_sortants:#on parcourt la liste contenant les paires (sous forme de liste) les url et le nb de lien en sortant: ex ((A,1), (B,4), ...) ici l=(A,1) et l(0)=A	
 						if l[0] == b[j][0]:
 							print(ranks_init)
 							for c in ranks_init:
